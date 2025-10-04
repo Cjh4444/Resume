@@ -7,9 +7,8 @@
 
 \documentclass[letterpaper,11pt]{article}
 
-\usepackage{fontawesome5}
+\usepackage{fontawesome5} % for icons
 \usepackage{latexsym}
-\usepackage[empty]{fullpage}
 \usepackage{titlesec}
 \usepackage{marvosym}
 \usepackage[usenames,dvipsnames]{color}
@@ -18,8 +17,11 @@
 \usepackage[hidelinks]{hyperref}
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
+\usepackage[letterpaper, total={7.5in, 10in}]{geometry} % Modern package for page layout
 \usepackage{tabularx}
 \input{glyphtounicode}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
 
 
 
@@ -31,13 +33,6 @@
 \fancyfoot{}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
-
-% Adjust margins
-\addtolength{\oddsidemargin}{-0.5in}
-\addtolength{\evensidemargin}{-0.5in}
-\addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.5in}
-\addtolength{\textheight}{1.0in}
 
 \urlstyle{same}
 % test
@@ -76,6 +71,9 @@
 
 %-----------SKILLS-----------%
 \input{src/skills.tex}
+
+%-----------AWARDS & HONORS-----------%
+\input{src/awardshonors.tex}
 
 %-------------------------------------------%
 \end{document}

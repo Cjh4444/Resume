@@ -6,6 +6,12 @@
   }
 }
 
+\newcommand{\resumeItemNoBullet}[1]{
+  \item[]\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
 \newcommand{\resumeSubheading}[4]{
   \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
@@ -35,7 +41,7 @@
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-8pt}}
 
 \definecolor{Black}{RGB}{0, 0, 0}
 \newcommand{\seticon}[1]{\textcolor{Black}{\csname #1\endcsname}}
