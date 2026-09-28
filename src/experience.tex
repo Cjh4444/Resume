@@ -6,10 +6,9 @@
     {Lead Developer, MITRE eCTF \& Club Officer}{September 2024 -- Present}
     {Batman's Kitchen - UW Cybersecurity Club}{Seattle, Washington}
     \resumeItemListStart
-        \resumeItem{Led the 20+ member programming division for the MITRE eCTF, an international embedded hardware security competition.}
-        \resumeItem{Wrote security-critical embedded firmware using modern cryptographic techniques and secure design principles to defend against hardware attacks.}
+        \resumeItem{Led the 20+ member development team in the MITRE eCTF, an international embedded security competition.}
         \resumeItem{Designed cybersecurity curriculum and mentored members through weekly workshops and club-wide CTFs.}
-        \resumeItem{Managed the club's on-premise infrastructure (core webserver, competition and lab VMs), replacing manual VM provisioning with a Terraform-managed Proxmox cluster.}
+        \resumeItem{Migrated the club's on-prem infrastructure (webserver, competition and lab VMs) from manual provisioning to a Terraform-managed Proxmox cluster; ran club CTF infrastructure on rCTF and AWS.}
     \resumeItemListEnd
 
     \resumeSubheading
@@ -17,8 +16,8 @@
     {University of Washington - ARC Lab}{Seattle, Washington}
     \resumeItemListStart
         \resumeItem{Designed and implemented an educational platform delivering step-by-step circuit guidance to 300+ engineering students, owning the backend webserver and database infrastructure on AWS.}
-        \resumeItem{Deployed an LLM assistant and sentiment analysis pipeline via OpenRouter to monitor student engagement.}
-        \resumeItem{Anonymized student PII with Presidio before LLM inference, meeting IRB data protection requirements.}
+        \resumeItem{Built an LLM tutor pipeline with jailbreak screening, RAG over student uploads, background sentiment classification, and per-student cost budgets, redacting student PII before any third-party model call to comply with FERPA.}
+        \resumeItem{Owned security for the platform, auditing it against the OWASP web and AI Top 10 and hardening authentication, database access, and the CI supply chain before launch.}
     \resumeItemListEnd
 
     \resumeSubheading
